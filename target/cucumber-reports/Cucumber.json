@@ -1,0 +1,76 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Mohammed Arief"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Logging into college Application",
+        "description": "",
+        "id": "sri-krishna-college-application;logging-into-college-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8840301343,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "open the browser",
+            "match": {
+              "location": "Stepdefinition.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 418279670,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the college name and Login Authority",
+            "match": {
+              "location": "Stepdefinition.select_the_college_name_and_Login_Authority()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6443975097,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the UserName and Password and click login button",
+            "match": {
+              "location": "Stepdefinition.enter_the_UserName_and_Password_and_click_login_button()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@LoginPage"
+          }
+        ]
+      }
+    ],
+    "name": "Sri Krishna college Application",
+    "description": "",
+    "id": "sri-krishna-college-application",
+    "keyword": "Feature",
+    "uri": "/Users/arief/eclipse-workspace/MyProject/src/test/java/SKECCollege.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@College"
+      }
+    ]
+  }
+]
